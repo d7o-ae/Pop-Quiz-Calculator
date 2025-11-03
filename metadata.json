@@ -1,0 +1,5 @@
+{
+  "name": "Pop Quiz 'Best Of' Calculator",
+  "description": "An application to upload an Excel sheet of student grades, calculate the average of the 'best of' a specified number of pop quizzes, and display or download the results.",
+  "requestFramePermissions": []
+}
