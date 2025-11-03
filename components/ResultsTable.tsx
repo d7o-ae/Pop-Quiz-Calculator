@@ -1,6 +1,6 @@
 
 import React from 'react';
-import type { ProcessedRow } from '../types';
+import type { ProcessedRow } from '../types.ts';
 
 interface ResultsTableProps {
   headers: string[];

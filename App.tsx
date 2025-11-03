@@ -1,10 +1,10 @@
 
 import React, { useState, useCallback } from 'react';
-import { FileUpload } from './components/FileUpload';
-import { ResultsTable } from './components/ResultsTable';
-import { readFileAsArray, exportArrayToExcel } from './services/excelService';
-import { SpinnerIcon } from './components/Icons';
-import type { ProcessedRow } from './types';
+import { FileUpload } from './components/FileUpload.tsx';
+import { ResultsTable } from './components/ResultsTable.tsx';
+import { readFileAsArray, exportArrayToExcel } from './services/excelService.ts';
+import { SpinnerIcon } from './components/Icons.tsx';
+import type { ProcessedRow } from './types.ts';
 
 // Fix: Use React.ReactElement instead of JSX.Element to resolve "Cannot find namespace 'JSX'" error.
 function App(): React.ReactElement {

@@ -7,6 +7,8 @@
     <title>Pop Quiz 'Best Of' Calculator</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <!-- Add Babel Standalone for in-browser JSX/TSX transpilation -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   <script type="importmap">
 {
   "imports": {
@@ -19,6 +21,7 @@
 </head>
   <body class="bg-gray-100 dark:bg-gray-900">
     <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
+    <!-- Update script type to text/babel to be processed by Babel Standalone -->
+    <script type="text/babel" data-type="module" src="/index.tsx"></script>
   </body>
 </html>
